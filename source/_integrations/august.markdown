@@ -58,7 +58,7 @@ timeout:
   default: 10
 {% endconfiguration %}
 
-Once Home Assistant is started, a configurator will pop up asking you to enter verification code that is sent to your phone number or email.
+Once Home Assistant is started, a configurator will pop up asking you to enter verification code that is sent to your phone number or email.  If you ever change accounts, you will need to delete the ".august.conf" file that lives in the same location as your configuration.yaml.
 
 ### Binary Sensor
 
